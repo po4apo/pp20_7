@@ -1,0 +1,43 @@
+body {
+    margin: 0 auto;
+    background: antiquewhite;
+    align-content: center;
+}
+
+form{
+    background: #767676;
+    align-content: center;
+    width: 35%;
+    margin: auto;
+    padding: 5%;
+}
+
+.input_text{
+    margin: auto;
+    padding: 50px;
+}
+.search{
+    width: 50px;
+    margin: auto;
+}
+
+.create_new_employ{
+    margin: auto;
+    width: 235px;
+    padding: 10px;
+    font-size: 15pt;
+
+
+}
+.create_new_employ > a{
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    background: #2f7560;
+    margin: auto;
+}
+
+
+
+

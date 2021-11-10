@@ -16,19 +16,21 @@
             <span> = {{ answer }}</span>
         </div>
 
-            <button name = "_calculator" class="btn btn-light" type="submit" class="save btn btn-light border offset-md-11">
-                <span>Посчитать</span>
-            </button>
+        <button name="_calculator" class="btn btn-light" type="submit" class="save btn btn-light border offset-md-11">
+            <span>Посчитать</span>
+        </button>
     </form>
+
+
     <form method="POST" class="border rounded p-3 pb-2 mb-2">
         {% csrf_token %}
         <div>
             {{ memory_form }}
         </div>
 
-            <button class="btn btn-light" name = "_memory" type="submit" class="save btn btn-light border offset-md-11">
-                <span>Выбрать</span>
-            </button>
+        <button class="btn btn-light" name="_memory" type="submit" class="save btn btn-light border offset-md-11">
+            <span>Выбрать</span>
+        </button>
 
     </form>
 </div>

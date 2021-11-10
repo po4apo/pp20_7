@@ -13,6 +13,7 @@ def get_choices_from_cookie(request):
 
 
 def show_main(request):
+    print(request.method)
     answer = ''
     if request.method == 'GET':
         calculator_form = CalculatorForm(request.POST)
